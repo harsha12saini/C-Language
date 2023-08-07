@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int grade;
+    printf("enter grades");
+    scanf("%d", &grade);
+    
+    if(grade>=90)
+    printf("scholarship");
+    
+    else if(grade!=90)
+    printf("no scholarship ");
+    
+    return 0;
+    
+}

@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+ float vol,r;
+ printf("input the value of radius = ", r);
+ scanf("%f", &r);
+ vol= (4*22*r*r*r)/(7*3);
+ printf("volume = %f", vol);
+ return 0;
+}

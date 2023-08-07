@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+double d,convert;
+convert = 1000*0.000621371192;
+ printf("%lf", convert);
+return 0;
+}

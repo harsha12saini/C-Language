@@ -1,0 +1,22 @@
+int main()
+{
+    int i, max, min, num, x;
+    printf("enter number of employees = ");
+    scanf("%d",&x);
+    max=0;
+    min=999999;
+    for(i=1; i<=x; i++)
+    {
+    printf("enter x - %d", i);
+    scanf("%d", &num);
+    if(max<num)
+     max=num;
+    if(min>num)
+     min=num;
+    }
+    printf("max salary = %d\n", max);
+    printf("min salary = %d", min);
+    
+    return 0;
+}
+

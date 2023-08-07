@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int a=10,b=20;    //declaration and assignment
+
+printf("address of a is %p\n",&a);  //& is called address of 
+
+printf("address of b is %p",&b);  //p is format specifier
+
+return 0;
+}

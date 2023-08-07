@@ -1,0 +1,34 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c,d,e,avg,h;
+printf("enter marks of 5 subjects= ");
+scanf("%d %d %d %d %d", &a, &b,&c,&d,&e);
+ avg= (a+b+c+d+e)/5;
+ h=avg/10;
+ switch(h)
+ {
+ case 9 :
+          printf("\n Your Grade is: A");
+           break;
+       case 8 :
+            
+           printf("\n Your Grade is: B" );
+           break;
+       case 7 :
+          
+           printf("\n Your Grade is: B" );
+           break;
+       case 6:
+       printf("\n Your Grade is: C" );
+           break;
+           case 5: 
+           printf("\n Your Grade is: C" );
+           break;
+      
+       default :
+           
+           printf("\n You Grade is: F or Fail\n");
+   }
+   return 0;
+ }

@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include<limits.h>
+#include<float.h>
+int main()
+{
+   printf("min range of int is %d\n",INT_MIN);
+    printf("max range of int is %d\n",INT_MAX);
+    printf("min range of short is %d\n",SHRT_MIN);
+    printf("max range of short is %d\n",SHRT_MAX);
+    printf("min range of float is %f\n",FLT_MIN);
+    printf("max range of float is %f\n",FLT_MAX);
+    printf("min range of char is %d\n",CHAR_MIN);
+    printf("min range of char is %d\n",CHAR_MAX);
+    printf("min range of float is %e\n",FLT_MIN);
+    printf("min range of float is %e",FLT_MAX);
+    return 0;
+}

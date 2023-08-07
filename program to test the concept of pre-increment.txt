@@ -1,0 +1,9 @@
+ #include <stdio.h>
+
+int main()
+{
+   int i= 10;
+   printf("i before increment is %d\n", i);
+   printf("i after pre increment is %d\n", ++i);
+   printf("i just after pre increment is %d\n", i);
+}

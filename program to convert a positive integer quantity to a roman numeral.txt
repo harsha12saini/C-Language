@@ -1,0 +1,37 @@
+
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("enter a number between 1 to 10 : ");
+    scanf("%d", &n);
+    switch(n)
+    {
+        case 1: printf("Roman numeral = I");
+        break;
+        case 2: printf("Roman numeral = II");
+        break;
+        case 3: printf("Roman numeral = III");
+        break;
+        case 4: printf("Roman numeral = IV");
+        break;
+        case 5: printf("Roman numeral = V");
+        break;
+        case 6: printf("Roman numeral = VI");
+        break;
+        break;
+        case 7: printf("Roman numeral = VII");
+        break;
+        break;
+        case 8: printf("Roman numeral = VIII");
+        break;
+        break;
+        case 9: printf("Roman numeral = IX");
+        break;
+        break;
+        case 10: printf("Roman numeral = X");
+        break;
+        
+    }
+    return 0;
+}

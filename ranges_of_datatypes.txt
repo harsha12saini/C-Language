@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<limits.h>
+int main()
+{
+
+
+printf("min range of int is %d \n",INT_MIN);
+printf("max range of int is %d \n",INT_MAX);
+
+printf("min range of short is %d \n",SHRT_MIN);
+printf("max range of short is %d \n",SHRT_MIN);
+
+printf("min range of char is %d \n",CHAR_MIN);
+printf("max range of char is %d \n",CHAR_MIN);
+
+
+return 0;
+}

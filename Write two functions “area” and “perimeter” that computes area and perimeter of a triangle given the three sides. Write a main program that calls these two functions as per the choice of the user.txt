@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+void area();
+void perimeter(int,int,int);
+
+
+int choice,j,d,s,m,n,o,b,h,ar,p,q,r;
+
+int main()
+{
+    
+    printf("1.area\n2.perimeter\n");
+    printf("choose any one option=");
+    scanf("%d", &choice);
+    
+    switch(choice)
+    {
+        case 1: area();
+        break;
+        
+        case 2: printf("enter 3 sides of triangle = ");
+        scanf("%d%d%d", &m, &n, &o);
+        perimeter(j,d,s);
+        break;
+        
+        default:printf("invalid choice");
+        break;
+    }
+}
+    void area()
+    {
+        printf("enter base and height of triangle= ");
+        scanf("%d %d", &b,&h);
+        ar=0.5*b*h;
+        printf("area of triangle = %d",ar);
+          }
+          
+          
+    void perimeter(int p, int q, int r)
+    {
+        
+        printf("perimeter of triangle = %d", m+n+o);
+        
+    }

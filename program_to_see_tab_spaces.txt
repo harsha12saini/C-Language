@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+    printf("Hello\t");
+    printf("world");
+    return 0;
+}

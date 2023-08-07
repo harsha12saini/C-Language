@@ -1,0 +1,28 @@
+#include <stdio.h>
+ 
+int main()
+{
+   int A[10], odd[10], even[10],n=0,p=0,i;
+   for(i=0;i<10;i++)
+   {
+   scanf("%d",&A[i]);
+    if(A[i]%2==0)
+    {
+    even[n]=A[i];
+    n++;
+    
+    }
+    else if(A[i]%2!=0)
+    {
+    odd[p]=A[i];
+    p++;
+     
+    }
+   }
+   
+   for(i=0;i<n;i++)
+   printf("even array = \n%d", even[i]);
+   for(i=0;i<p;i++)
+  printf("Odd array = \n%d", odd[i]);
+   return 0;
+}

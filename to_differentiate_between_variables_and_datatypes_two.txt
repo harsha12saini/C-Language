@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+int a;    //declaration
+a=10;     //assignment
+printf("a =%d\n",a);
+a=20;    //assignment
+printf("new value of a is %d",a);
+return 0;
+}

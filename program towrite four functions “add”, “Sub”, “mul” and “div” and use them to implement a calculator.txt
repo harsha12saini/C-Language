@@ -1,0 +1,64 @@
+
+#include <stdio.h>
+
+void sum();
+void difference(int,int);
+int multiply();
+void divide(int,int);
+
+int choice,c,d,p,q,a,b,n,add,diff,f,g,z,mul,q;
+
+int main()
+{
+    
+    printf("1.sum\n2.difference\n3.multiply\n4.divide\n");
+    printf("choose any one option=");
+    scanf("%d", &choice);
+    
+    switch(choice)
+    {
+        case 1: sum();
+        break;
+        case 2: printf("enter 2 no = ");
+        scanf("%d %d", &a, &b);
+        difference(a,b);
+        break;
+        case 3: printf("multiplication = %d ", multiply());
+        break;
+        case 4: printf("enter two nos = ");
+        scanf("%d%d", &n, &p);
+        divide(a,b);
+        break;
+        default:printf("invalid choice");
+        break;
+    }
+}
+    void sum()
+    {
+        printf("enter 2 no = ");
+        scanf("%d%d", &a,&b);
+        
+        printf("sum= %d", a+b);
+        
+    }
+    void difference(int c,int d)
+    {
+        diff=d-c;
+        printf("difference = %d", diff);
+        
+    }
+    
+    int multiply()
+    {
+        printf("enter two no = ");
+        scanf("%d%d", &f,&g);
+        mul=f*g;
+        return mul;
+    }
+    
+    void divide(int a, int b)
+    {
+        q=a/b;
+        printf("division = %d", q);
+        
+    }
